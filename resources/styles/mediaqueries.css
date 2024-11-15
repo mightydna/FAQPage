@@ -1,1 +1,35 @@
 /* Media Queries */
+@media (max-width: 875px) {
+    .question_container {
+
+        width: auto;
+
+    }
+}
+@media (max-width: 450px) {
+    body {
+        background-color: #12111F;
+        background-image: url(../images/faq-title-bg@2x.png);
+        background-position-x: center;
+        background-position-y: 20px;
+        background-repeat: no-repeat; 
+    }
+    h2 {
+        margin: 42px 0px 96px 0px;
+        font-size: 36px;
+        line-height: 50px;
+    }
+    #headline_box {
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+        max-width: 400px;
+    }
+    menu {
+        max-width: 400px;
+        margin: 0px 0px 120px 0px;
+    }
+    ul {
+        flex-wrap: wrap;
+    }
+}
