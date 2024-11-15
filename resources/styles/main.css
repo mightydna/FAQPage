@@ -1,0 +1,159 @@
+/* General */
+html {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+    background-color: #12111F;
+    background-image: url(../images/faq-title-bg.svg);
+    background-position-x: center;
+    background-position-y: 20px;
+    background-repeat: no-repeat; 
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* Header */
+h2 {
+    padding: 0px;
+    margin: 72px 0px 96px 0px;
+    color: #97A3B6;
+    font-size: 48px;
+    font-family: 'BeVietnamPro';
+    line-height: 75px;
+    text-align: center;
+}
+#headline_box {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+h3 {
+    margin: 0px 0px 16px 0px;
+    padding: 0px;
+    color: #F2F5F9;
+    font-size: 20px;
+    font-family: 'BeVietnamPro';
+}
+#subheader {
+    padding: 0px;
+    margin: 0px 0px 40px 0px;
+    color: #97A3B6;
+    font-size: 16px;
+    font-family: 'BeVietnamPro';
+}
+
+/* Menu Section */
+menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px 0px 80px 0px;
+    padding: 0px;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    gap: 24px;
+}
+li.selected {
+    list-style: none;
+    padding: 8px 20px;
+    color: #F2F5F9;
+    background-color: rgba(151, 163, 182, 0.15);
+    font-size: 14px;
+    font-family: 'BeVietnamPro';
+    border-radius: 45px;
+    cursor: pointer;
+}
+li.unselected {
+    list-style: none;
+    padding: 8px 20px;
+    color: #F2F5F9;
+    font-size: 14px;
+    font-family: 'BeVietnamPro';
+    cursor: pointer;
+}
+
+/* Main Content Area */
+
+.question_container {
+    display: flex;
+    flex-direction: column;
+    width: 810px;
+    padding: 0px 32px;
+    margin-bottom: 72px;
+}
+.question_box_selected {
+    background-color: rgba(151, 163, 182, 0.15);
+    border-radius: 25px;
+    margin-bottom: 20px;
+    padding: 28px 32px 28px 32px;
+    transition: all 0.3s ease;
+}
+.question_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+.question {
+    color: #F2F5F9;
+    font-size: 20px;
+    font-family: 'BeVietnamPro';
+    font-weight: 400;
+    padding: 0px;
+    margin: 0px;
+}
+.question_box_unselected {
+    margin-bottom: 20px;
+    padding: 10px 32px 10px 32px;
+    transition: all 0.3s ease;
+}
+.question_unselected {
+    color: #F2F5F9;
+    font-size: 20px;
+    font-family: 'BeVietnamPro';
+    padding: 0px;
+    margin: 0px;
+    font-weight: 400;
+}
+.answer_selected {
+    color: #97A3B6;
+    font-family: 'BeVietnamPro';
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+    font-weight: 400;
+    transition: all 0.3s ease;
+}
+.answer_unselected {
+    font-family: 'BeVietnamPro';
+    font-size: 16px;
+    color: #97A3B6;
+    display: none;
+    transition: all 0.3s ease;
+}
+.expand_selected {
+    transform: rotate(180deg);
+    transition: all 0.3s ease;
+}
+.expand_unselected {
+    transition: all 0.3s ease;
+}
